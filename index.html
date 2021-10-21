@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<!--Title and reference-->
+  <head>
+    <title> Jay.B Pet Store</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a3a16edd3a.js"></script>
+    <style>
+      h1{
+  color: #484848;
+  font-size: 50px;
+  font-weight: bold;
+  font-family: monospace;
+  letter-spacing: 7px;
+  cursor: pointer
+}
+h1 span{
+  transition: .5s linear
+}
+h1:hover span:nth-child(1){
+  margin-right: 5px
+}
+h1:hover span:nth-child(1):after{
+  content: "'";
+}
+h1:hover span:nth-child(2){
+  margin-left: 30px
+}
+h1:hover span{
+  color: #fff;
+  text-shadow: 0 0 10px black,
+               0 0 20px #fff, 
+               0 0 40px #fff;
+}
+p {
+  text-shadow: 2px 2px 5px yellow;
+}
+    </style>
+  </head>
+
+<!--Links and Navbar-->
+  <body>
+    <div class="container"> 
+      <div class="navbar">
+        <img src="newlogo.PNG" class="menu-icon">
+        <nav>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="products/product.html">Products</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Contact Us</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <!--Button and Heading-->
+      <div class="row"> 
+        <div class="col">
+          <h1><span>Jay</span>B<span>Pet Store</span></h1>
+          <!-- <h1>Jay.B Pet Store</h1> -->
+          <p>We know that your pets are part of your life.<br>We provide the best products and services for your pets.</p>
+          <button type="button">Explore</button>
+          <div class="col">
+        </div>
+
+        <!--Cards-->
+          <div class="col">
+            <a href="/dog/dogsell.html">
+            <div class="card card1">
+              <h5>DOG</h5>
+              
+            </div>
+          </a>
+          </div>
+
+          <div class="col">
+            <a href="/cat/catsell.html">
+            <div class="card card2">
+              <h5>CAT</h5>
+              
+            </div>
+          </a>
+          </div>
+ 
+          <div class="col">
+            <a href="/bird/birdsell.html">
+            <div class="card card3">
+              <h5>BIRD</h5>
+              
+            </div>
+          </a>
+          </div>
+
+          <div class="col">
+            <a href="/smallpet/smallpetsell.html">
+            <div class="card card4">
+              <h5>SMALL PETS</h5> 
+
+            </div>
+            </a>
+            <!--Search Bar-->
+            </div>
+        
+            <div class="vertical-bar">
+              <div class="search-icon">
+                <i class="fas fa-list"></i>
+                <i class="fas fa-search"></i>
+              </div>
+
+              <!--Social Icons-->
+              <div class="social-icon">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-instagram"></i>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div> 
+    </div>
+  </body>
+</html>
